@@ -4,33 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Index</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <nav>
         <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="index.html">Contact</a></li>
-          <li><a href="../projects/index.html">Projects</a></li>
-          <li><a href="../resume.html">Resume</a></li>
-          <li><a href="https://github.com/pakuang" target="_blank">GitHub</a></li>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a  class="current" href="index.html">Contact</a></li>
+          <li><a  href="../projects/index.html">Projects</a></li>
+          <li><a  href="../resume.html">Resume</a></li>
+          <li><a  href="https://github.com/pakuang" target="_blank">GitHub</a></li>
         </ul>
       </nav>
     <h1>Contact</h1>
 
-    <form action="mailto:your_email@example.com" method="POST" enctype="text/plain">
-        <label for="email">Your Email:</label>
-        <input type="email" id="email" name="email" value="example@example.com" required>
-        <br><br>
-    
-        <label for="subject">Subject:</label>
-        <input type="text" id="subject" name="subject" value="Default Subject">
-        <br><br>
-    
-        <label for="body">Message:</label>
-        <textarea id="body" name="body" rows="5" cols="30">Default message text</textarea>
-        <br><br>
-    
-        <button>Submit</button>
+
+      <form action="mailto:your_email@example.com" method="POST" enctype="text/plain">
+        <label>
+          Your Email:
+          <input type="email" name="email" value="example@example.com" required>
+        </label>
+        
+        <label>
+          Subject:
+          <input name="subject" value="Default Subject">
+        </label>
+        
+        <label>
+          Message:
+          <textarea name="body">Default message text</textarea>
+        </label>
+        
+        <button type="submit">Submit</button>
       </form>
 </body>
 </html>
