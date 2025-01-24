@@ -9,19 +9,23 @@ let nav = document.createElement('nav');
   
 const ARE_WE_HOME = document.documentElement.classList.contains('home');
 
-// let pages = [
-//     { url: '', title: 'Home' },
-//     { url: 'projects/', title: 'Projects' },
-//     { url: 'contact/', title: 'Contact' },
-//     { url: 'resume.html', title: 'Resume' }
-//   ];
-
 let pages = [
-    { url: 'dsc106-portfolio/', title: 'Home' },
-    { url: 'dsc106-portfolio/projects/', title: 'Projects' },
-    { url: 'dsc106-portfolio/contact/', title: 'Contact' },
-    { url: 'dsc106-portfolio/resume.html', title: 'Resume' }
+    { url: '', title: 'Home' },
+    { url: 'projects/', title: 'Projects' },
+    { url: 'contact/', title: 'Contact' },
+    { url: 'resume.html', title: 'Resume' }
   ];
+
+const BASE_PATH = window.location.pathname.includes('/dsc106-portfolio/')
+  ? '/dsc106-portfolio/'
+  : '/';
+
+// let pages = [
+//     { url: 'dsc106-portfolio/', title: 'Home' },
+//     { url: 'dsc106-portfolio/projects/', title: 'Projects' },
+//     { url: 'dsc106-portfolio/contact/', title: 'Contact' },
+//     { url: 'dsc106-portfolio/resume.html', title: 'Resume' }
+//   ];
   
 
 for (let p of pages) {
@@ -29,10 +33,15 @@ for (let p of pages) {
     let title = p.title;
 
 
-    if (!ARE_WE_HOME && !url.startsWith('http')) {
-        url = '../' + url;
-    }
+    // if (!ARE_WE_HOME && !url.startsWith('http')) {
+    //     url = '../' + url;
+    // }
 
+    if (!ARE_WE_HOME && !url.startsWith('http')) {
+        url = BASE_PATH + '../' + url;
+      } else if (!url.startsWith('http')) {
+        url = BASE_PATH + url;
+      }
 
 
     let a = document.createElement('a');
