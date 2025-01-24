@@ -6,8 +6,13 @@ function $$(selector, context = document) {
   
 let nav = document.createElement('nav');
   document.body.prepend(nav);
-  
-const ARE_WE_HOME = document.documentElement.classList.contains('home');
+
+const BASE_PATH = window.location.pathname.includes('/dsc106-portfolio/')
+  ? '/dsc106-portfolio/'
+  : '/';
+
+// const ARE_WE_HOME = document.documentElement.classList.contains('home');
+const ARE_WE_HOME = location.pathname === BASE_PATH;
 
 let pages = [
     { url: '', title: 'Home' },
@@ -16,9 +21,7 @@ let pages = [
     { url: 'resume.html', title: 'Resume' }
   ];
 
-const BASE_PATH = window.location.pathname.includes('/dsc106-portfolio/')
-  ? '/dsc106-portfolio/'
-  : '/';
+
 
 // let pages = [
 //     { url: 'dsc106-portfolio/', title: 'Home' },
@@ -37,12 +40,9 @@ for (let p of pages) {
     //     url = '../' + url;
     // }
 
-    if (!ARE_WE_HOME && !url.startsWith('http')) {
-        url = BASE_PATH + '../' + url;
-      } 
-    //   else if (!url.startsWith('http')) {
-    //     url = BASE_PATH + url;
-    //   }
+    if (!url.startsWith('http')) {
+        url = BASE_PATH + url;
+      }
 
 
     let a = document.createElement('a');
