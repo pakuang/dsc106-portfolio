@@ -39,9 +39,10 @@ for (let p of pages) {
 
     if (!ARE_WE_HOME && !url.startsWith('http')) {
         url = BASE_PATH + '../' + url;
-      } else if (!url.startsWith('http')) {
-        url = BASE_PATH + url;
-      }
+      } 
+    //   else if (!url.startsWith('http')) {
+    //     url = BASE_PATH + url;
+    //   }
 
 
     let a = document.createElement('a');
