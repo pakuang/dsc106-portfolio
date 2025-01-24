@@ -30,7 +30,9 @@ for (let p of pages) {
     //     url = '../' + url;
     // }
 
-    if (!url.startsWith('http')) {
+    if (!ARE_WE_HOME && !url.startsWith('http')) {
+        url = BASE_PATH + '../' + url;
+      } else if (!url.startsWith('http')) {
         url = BASE_PATH + url;
       }
 
@@ -41,11 +43,11 @@ for (let p of pages) {
     a.classList.toggle(
         'current',
         a.host === location.host && a.pathname === location.pathname
-        );
+    );
 
-        if (a.host !== location.host) {
+    if (a.host !== location.host) {
         a.target = '_blank';
-        }
+    }
 
     nav.append(a);
 
