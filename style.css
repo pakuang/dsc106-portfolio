@@ -85,6 +85,14 @@ button {
   gap:1em;
 }
 
+.projects img {
+  width: 100%; /* Ensures the image fills the container */
+  height: auto; /* Keeps aspect ratio */
+  max-height: 200px; /* Prevents oversized images */
+  object-fit: cover; /* Ensures images fill their area without distortion */
+}
+
+
 .projects article {
   display: grid;
   grid-template-rows: subgrid;
@@ -133,4 +141,29 @@ html {
   right: 1rem;
   font-size: 80%;
   font-family: inherit;
+}
+
+#home-img{
+  width: 200px; /* Adjust the width */
+  height: auto;  /* Maintain aspect ratio */
+}
+
+#profile-stats dl {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  gap: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#profile-stats dt {
+  font-weight: bold;
+  grid-row: 1; /* Place all <dt> elements in the first row */
+}
+
+#profile-stats dd {
+  grid-row: 2; /* Place all <dd> elements in the second row */
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
 }
