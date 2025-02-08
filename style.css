@@ -86,10 +86,10 @@ button {
 }
 
 .projects img {
-  width: 100%; /* Ensures the image fills the container */
-  height: auto; /* Keeps aspect ratio */
-  max-height: 200px; /* Prevents oversized images */
-  object-fit: cover; /* Ensures images fill their area without distortion */
+  width: 100%; 
+  height: auto; 
+  max-height: 200px; 
+  object-fit: cover; 
 }
 
 
@@ -144,13 +144,13 @@ html {
 }
 
 #home-img{
-  width: 200px; /* Adjust the width */
-  height: auto;  /* Maintain aspect ratio */
+  width: 200px; 
+  height: auto;  
 }
 
 #profile-stats dl {
   display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
+  grid-template-columns: repeat(4, 1fr); 
   gap: 10px;
   text-align: center;
   margin-top: 20px;
@@ -158,12 +158,86 @@ html {
 
 #profile-stats dt {
   font-weight: bold;
-  grid-row: 1; /* Place all <dt> elements in the first row */
+  grid-row: 1; 
 }
 
 #profile-stats dd {
-  grid-row: 2; /* Place all <dd> elements in the second row */
+  grid-row: 2; 
   margin: 0;
   font-size: 1.2em;
   color: #333;
+}
+
+/*lab 5*/
+#projects-pie-plot {
+  max-width: 20em;
+  margin-block: 2em;
+
+  overflow: visible;
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  gap: 20px; 
+  max-width: 800px; 
+  margin: auto; 
+}
+
+#projects-pie-plot {
+  flex-shrink: 0; 
+  width: 250px;
+  height: 250px;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(9em, 1fr)); 
+  gap: 10px; 
+  flex: 1; 
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.legend li {
+  display: flex;
+  align-items: center; 
+  list-style: none;
+  gap: 4px;
+}
+
+.legend .swatch {
+  width: 14px;
+  height: 14px;
+  aspect-ratio: 1 / 1;
+  background-color: var(--color);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+&:has(path:hover) {
+  path:not(:hover) {
+    opacity: 0.5;
+  }
+}
+
+path {
+  transition: 300ms;
+}
+
+.selected {
+  --color: oklch(60% 45% 0) !important; 
+
+  &:is(path) {
+      fill: var(--color) !important; 
+  }
+}
+
+path {
+  cursor: pointer; 
+}
+
+.legend li {
+  cursor: pointer;
 }

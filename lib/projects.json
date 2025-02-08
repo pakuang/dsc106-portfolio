@@ -20,55 +20,55 @@
     {
         "title": "Review-Rating Linear Regression",
         "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "image": "https://github.com/pakuang/typeRacer/raw/main/READMEAssets/typeRacerDemo1.png",
         "description": "Ths project is centered around the factors that contribute to the rating of a recipe. Specifically, the relationship between the average rating a recipe has, accumulated from all of it's individual user ratings, and the preparation time of the recipe. Are recipes rated independently from it's preparation time?"
     },
     {
         "title": "Predictive Modeling of Cardiovascular Disease",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+        "year": "2025",
+        "image": "https://github.com/pakuang/ReviewSentiment/raw/main/READMEAssets/mainAdminDash.png",
         "description": "In our study, we deployed an XGBoost machine learning model to investigate the predictors of cardiovascular disease (CVD) outcomes within a dataset comprising 70,000 individual records. Our analysis focused on a comprehensive range of factors including cholesterol levels, blood pressure (both systolic and diastolic), glucose levels, smoking status, alcohol consumption, and physical activity."
     },
     {
-        "title": "Voluptas illum magni neque.",
+        "title": "Trip Planner",
         "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Ipsum ea dolorem eum, exercitationem nobis sunt nesciunt architecto reiciendis repellendus explicabo quia deleniti odit autem perferendis quidem sequi voluptatem sit labore temporibus ducimus quasi voluptates. Tempora aliquam atque adipisci."
+        "image": "https://github.com/pakuang/ReviewSentiment/raw/main/READMEAssets/addBusDatabase.png",
+        "description": "A web app for planning and tracking trips. Nobis sunt nesciunt architecto reiciendis repellendus explicabo quia deleniti odit autem perferendis quidem sequi voluptatem sit labore temporibus ducimus quasi voluptates. Tempora aliquam atque adipisci."
     },
     {
-        "title": "Earum nulla unde totam.",
+        "title": "Expense Tracker",
         "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Fuga mollitia eaque eos saepe eligendi quisquam nulla sapiente, blanditiis deleniti facere ullam quo aut enim, dolore, officia assumenda voluptas consectetur accusamus inventore id unde velit reiciendis esse omnis. Odit."
+        "image": "https://github.com/pakuang/ReviewSentiment/raw/main/READMEAssets/mainDashboard.png",
+        "description": "A budgeting app to track personal/business expenses. Blanditiis deleniti facere ullam quo aut enim, dolore, officia assumenda voluptas consectetur accusamus inventore id unde velit reiciendis esse omnis. Odit."
     },
     {
-        "title": "Expedita quidem similique quia.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Eos, laudantium praesentium aliquid, error iusto provident dolores ullam numquam hic sequi culpa, odit sed voluptatem rem soluta! Illo, porro enim quidem voluptates rem debitis distinctio quaerat quod amet fuga."
+        "title": "E-Commerce Storefront",
+        "year": "2023",
+        "image": "https://github.com/pakuang/employeeMS/raw/main/READMEAssets/wrongLogin.png",
+        "description": "A React-based shopping website template. Eos, laudantium praesentium aliquid, error iusto provident dolores ullam numquam hic sequi culpa, odit sed voluptatem rem soluta! Illo, porro enim quidem voluptates rem debitis distinctio quaerat quod amet fuga."
     },
     {
-        "title": "Nemo officiis unde doloribus.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Iste corrupti eveniet harum blanditiis maiores, itaque dolor exercitationem, dolores soluta voluptates atque minus minima nihil fugit ratione sapiente explicabo adipisci. Quisquam praesentium ratione tenetur consequuntur numquam nulla voluptates iste?"
+        "title": "Medical Risk Predictor",
+        "year": "2022",
+        "image": "https://github.com/pakuang/ReviewSentiment/raw/main/READMEAssets/addBusDatabase.png",
+        "description": "Predicts health risks using ML models. Itaque dolor exercitationem, dolores soluta voluptates atque minus minima nihil fugit ratione sapiente explicabo adipisci. Quisquam praesentium ratione tenetur consequuntur numquam nulla voluptates iste?"
     },
     {
-        "title": "Aperiam sequi consequatur voluptatum.",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Dolores esse magni quos nam amet adipisci consectetur quidem quod eaque cupiditate, facere quibusdam. Ratione minus pariatur autem aperiam laudantium eaque quas. Illo, illum est maxime dolorem reiciendis fugit odit?"
+        "title": "Real-Time Chat App",
+        "year": "2025",
+        "image": "https://github.com/pakuang/employeeMS/raw/main/READMEAssets/categoryList.png",
+        "description": "A chat app with WebSockets support. Dolores esse magni quos nam amet adipisci consectetur quidem quod eaque cupiditate, facere quibusdam. Ratione minus pariatur autem aperiam laudantium eaque quas. Illo, illum est maxime dolorem reiciendis fugit odit?"
     },
     {
-        "title": "Asperiores incidunt perferendis cumque!",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Omnis, iure! Harum sequi praesentium culpa iste commodi, inventore dicta! Et illum consequuntur repellat sapiente aut, molestiae delectus architecto itaque neque sint voluptatem ab fugiat, ipsa molestias corporis eius ut?"
+        "title": "File Upload Service",
+        "year": "2022",
+        "image": "https://github.com/pakuang/ReviewSentiment/raw/main/READMEAssets/busAnalytics.png",
+        "description": "A backend for managing file uploads. Harum sequi praesentium culpa iste commodi, inventore dicta! Et illum consequuntur repellat sapiente aut, molestiae delectus architecto itaque neque sint voluptatem ab fugiat, ipsa molestias corporis eius ut?"
     },
     {
-        "title": "Consequuntur asperiores odio ipsa!",
-        "year": "2024",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Minus quod error quidem magnam nesciunt libero iure odio magni exercitationem doloremque! Vitae magnam eius dignissimos est reprehenderit! Ea libero exercitationem nihil, consectetur voluptates accusamus hic fugit facere quia placeat?"
+        "title": "Appointment Scheduling API",
+        "year": "2023",
+        "image": "https://github.com/pakuang/typeRacer/raw/main/READMEAssets/typeRacerDemo4.png",
+        "description": "Manages appointment bookings for businesses. Ibero iure odio magni exercitationem doloremque! Vitae magnam eius dignissimos est reprehenderit! Ea libero exercitationem nihil, consectetur voluptates accusamus hic fugit facere quia placeat?"
     }
 ]

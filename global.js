@@ -21,24 +21,14 @@ let pages = [
     { url: 'resume.html', title: 'Resume' }
   ];
 
-
-
-// let pages = [
-//     { url: 'dsc106-portfolio/', title: 'Home' },
-//     { url: 'dsc106-portfolio/projects/', title: 'Projects' },
-//     { url: 'dsc106-portfolio/contact/', title: 'Contact' },
-//     { url: 'dsc106-portfolio/resume.html', title: 'Resume' }
-//   ];
-  
+ 
 
 for (let p of pages) {
     let url = p.url;
     let title = p.title;
 
 
-    // if (!ARE_WE_HOME && !url.startsWith('http')) {
-    //     url = '../' + url;
-    // }
+  
 
     if (!url.startsWith('http')) {
         url = BASE_PATH + url;
@@ -126,7 +116,10 @@ projects.forEach(project => {
   article.innerHTML = `
       <${headingLevel}>${project.title}</${headingLevel}>
       <img src="${project.image}" alt="${project.title}">
-      <p>${project.description}</p>
+      <div class="project-des">
+            <p>${project.description}</p>
+            <p class="project-year">C: ${project.year}</p>
+        </div>
   `;
   containerElement.appendChild(article);
 });
