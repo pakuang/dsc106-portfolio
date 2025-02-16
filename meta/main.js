@@ -156,7 +156,7 @@ function createScatterplot() {
     const rScale = d3
   .scaleSqrt() // Change only this line
   .domain([minLines, maxLines])
-  .range([2, 20]);
+  .range([2, 23]);
 
     updateTooltipVisibility(false);
     const width = 1000;
