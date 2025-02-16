@@ -18,9 +18,10 @@ let pages = [
     { url: '', title: 'Home' },
     { url: 'projects/', title: 'Projects' },
     { url: 'contact/', title: 'Contact' },
-    { url: 'resume.html', title: 'Resume' }
+    { url: 'resume.html', title: 'Resume' },
+    { url: 'meta/', title: 'Meta' }
   ];
-
+4
  
 
 for (let p of pages) {
